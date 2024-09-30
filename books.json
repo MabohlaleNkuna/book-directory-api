@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "publisher": "Prentice Hall",
+    "publishedDate": "2008-08-11",
+    "isbn": "9780132350884"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "publisher": "Addison-Wesley Professional",
+    "publishedDate": "1999-10-30",
+    "isbn": "9780201616224"
+  },
+  {
+    "title": "You Don't Know JS: Scope & Closures",
+    "author": "Kyle Simpson",
+    "publisher": "O'Reilly Media",
+    "publishedDate": "2014-07-11",
+    "isbn": "9781449335588"
+  }
+]
