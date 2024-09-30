@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 
 const booksFile = path.join(__dirname, 'books.json');
 
-// Check if the JSON file exists, if not, create it with an empty array
 const initializeBooksFile = () => {
     if (!fs.existsSync(booksFile)) {
         fs.writeFileSync(booksFile, JSON.stringify([], null, 2), 'utf8');
@@ -17,7 +16,7 @@ const initializeBooksFile = () => {
     }
 };
 
-// Read books from the JSON file
+// Read books from the JSON 
 const readBooksFromFile = () => {
     try {
         const data = fs.readFileSync(booksFile, 'utf8');
@@ -32,7 +31,6 @@ const writeBooksToFile = (books) => {
     fs.writeFileSync(booksFile, JSON.stringify(books, null, 2), 'utf8');
 };
 
-// Validate ISBN
 const isValidISBN = (isbn) => /^\d{13}$/.test(isbn);
 
 // GET all books
